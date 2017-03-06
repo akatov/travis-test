@@ -4,10 +4,10 @@ rvm:
 
 before_install:
 - echo before_install
+- ./fail.sh
 
 install:
 - echo install
-- ./fail.sh
 
 before_script:
 - echo before_script
