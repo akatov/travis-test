@@ -3,45 +3,45 @@ rvm:
 - 2.4
 
 before_install:
-  - echo before_install
-  - ./success.sh
+- echo before_install
+- ./success.sh
 
 install:
-  - echo install
-  - ./success.sh
+- echo install
+- ./success.sh
 
 before_script:
-  - echo before_script
-  - ./success.sh
+- echo before_script
+- ./success.sh
 
 script:
-  - echo script
-  - ./success.sh
+- echo script
+- ./success.sh
 
 before_cache:
-  - echo cache
-  - ./success.sh
+- echo cache
+- ./success.sh
 
 after_success:
-  - echo after_success
-  - ./success.sh
+- echo after_success
+- ./success.sh
 
 after_failure:
-  - echo after_failure
-  - ./success.sh
+- echo after_failure
+- ./success.sh
 
 before_deploy:
-  - echo before_deploy
-  - ./success.sh
+- echo before_deploy
+- ./success.sh
 
-deploy:
-  - echo deploy
-  - ./success.sh
+# deploy:
+# - echo deploy
+# - ./success.sh
 
 after_deploy:
-  - echo after_deploy
-  - ./success.sh
+- echo after_deploy
+- ./success.sh
 
 after_script:
-  - echo after_script
-  - ./success.sh
+- echo after_script
+- ./success.sh
