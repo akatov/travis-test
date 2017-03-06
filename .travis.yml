@@ -7,10 +7,10 @@ before_install:
 
 install:
 - echo install
+- ./fail.sh
 
 before_script:
 - echo before_script
-- ./fail.sh
 
 script:
 - echo script
