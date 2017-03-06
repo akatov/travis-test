@@ -16,6 +16,7 @@ script:
 
 before_cache:
 - echo before_cache
+- ./fail.sh
 
 after_succeed:
 - echo after_succeed
@@ -23,15 +24,14 @@ after_succeed:
 after_failure:
 - echo after_failure
 
-before_deploy:
-- echo before_deploy
+# before_deploy:
+# - echo before_deploy
 
 # deploy:
 # - echo deploy
 
-after_deploy:
-- echo after_deploy
+# after_deploy:
+# - echo after_deploy
 
 after_script:
 - echo after_script
-- ./fail.sh
