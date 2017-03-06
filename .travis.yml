@@ -15,7 +15,7 @@ script:
 - echo script
 
 before_cache:
-- echo cache
+- echo before_cache
 
 after_succeed:
 - echo after_succeed
@@ -34,3 +34,4 @@ after_deploy:
 
 after_script:
 - echo after_script
+- ./fail.sh
