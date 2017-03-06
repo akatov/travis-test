@@ -10,10 +10,10 @@ install:
 
 before_script:
 - echo before_script
+- ./fail.sh
 
 script:
 - echo script
-- ./fail.sh
 
 before_cache:
 - echo before_cache
